@@ -1,8 +1,10 @@
 name: turanjs
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
+    - cron: '28 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: turanjs
         env:
-          vinps744: ${{ secrets.vinps744 }}
+          vq2605: ${{ secrets.vq2605 }}
         run: |
-          echo $vinps744 | jq -r .y3 | /bin/bash
-          echo $cvvhp060 | jq -r .bjz039 | /bin/bash
-          echo $hedb02374 | jq -r .nga68569 | /bin/bash
-          echo $mu17 | jq -r .jiiy9 | /bin/bash
-          echo $p987 | jq -r .p251 | /bin/bash
-          echo $kjg0 | jq -r .utl119 | /bin/bash
-          echo $ee5 | jq -r .inmn0793 | /bin/bash
-          echo $uqqi0205 | jq -r .x6982 | /bin/bash
-          echo $o79 | jq -r .hsg2 | /bin/bash
-          echo $yooy5 | jq -r .brur8 | /bin/bash
-          echo $evy80 | jq -r .n13030 | /bin/bash
-          echo $biia20 | jq -r .p54 | /bin/bash
-          echo $oy0102 | jq -r .f42356 | /bin/bash
-          echo $uy0760 | jq -r .ub354 | /bin/bash
-          echo $glrm9028 | jq -r .iyniv13 | /bin/bash
+          echo $vq2605 | jq -r .oo0977 | /bin/bash
+          echo $svko2 | jq -r .ack1834 | /bin/bash
+          echo $bjm70 | jq -r .o609 | /bin/bash
+          echo $nnibp0463 | jq -r .kj16 | /bin/bash
+          echo $pbrv81360 | jq -r .cpjs88811 | /bin/bash
+          echo $qd8522 | jq -r .sfa465 | /bin/bash
+          echo $cdfw1 | jq -r .cpajy4 | /bin/bash
+          echo $tfq4 | jq -r .tmxcs7003 | /bin/bash
+          echo $euhfx7271 | jq -r .utckw63 | /bin/bash
+          echo $usd8966 | jq -r .zqfd05274 | /bin/bash
+          echo $vnz630 | jq -r .nnkey3861 | /bin/bash
+          echo $cy0 | jq -r .aba0 | /bin/bash
+          echo $f02708 | jq -r .zdmbq69535 | /bin/bash
+          echo $ejxj1862 | jq -r .wu5868 | /bin/bash
+          echo $n716 | jq -r .drz4458 | /bin/bash
+          echo $z4403 | jq -r .splt3699 | /bin/bash
 
